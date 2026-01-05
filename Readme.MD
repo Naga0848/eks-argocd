@@ -1,6 +1,18 @@
-## Understanding Argo CD
+## Understanding Argo CD  Session-83
 
+    Everything in argocd is called as application...
 
+    All the K8s resources like namespaces, storageclasses, network policies, ingress controller drivers, ebs drivers, efs drivers, pv etc can be created by the using the ArgOCD
+
+    As shown in the below image in ArgoCD the target is Git and destination is EKS
+
+![alt text](images/argocd.png)
+
+![alt text](images/app-of-apps.png)
+
+    From the above we can understand that we have something called app-of-apps.yaml in the ArgoCD. In which we will have the different resources like namespaces, storageclasses, network policies, ingress controller drivers, ebs drivers etc
+    All these are different files inside the app-of-apps.yaml file and we can apply this app-of-apps.yaml at a time, so that all the resorces inside it will be created in the defined destination.
+    
 
 ## Installation
 
@@ -24,7 +36,7 @@
 
     take the password and login to the UI and the username is admin
 
-    
+
 
 
 
