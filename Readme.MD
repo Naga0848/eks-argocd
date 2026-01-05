@@ -14,7 +14,12 @@
     All these are different files inside the app-of-apps.yaml file and we can apply this app-of-apps.yaml at a time, so that all the resorces inside it will be created in the defined destination.
 
     Below is the example of the storage-class inside the app-of-apps, similarly we will have the namespaces, ebs, etc..
+
  ![alt text](images/storage-class.png)       
+
+ ![alt text](images/app-of-apps-example.png)
+
+    Above is the example for how app-of-apps looks inside the cluster (namespaces and storage-class) were created using the ArgoCD
 
 ## Installation
 
