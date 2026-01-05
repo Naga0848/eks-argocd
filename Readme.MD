@@ -12,7 +12,9 @@
 
     From the above we can understand that we have something called app-of-apps.yaml in the ArgoCD. In which we will have the different resources like namespaces, storageclasses, network policies, ingress controller drivers, ebs drivers etc
     All these are different files inside the app-of-apps.yaml file and we can apply this app-of-apps.yaml at a time, so that all the resorces inside it will be created in the defined destination.
-    
+
+    Below is the example of the storage-class inside the app-of-apps, similarly we will have the namespaces, ebs, etc..
+ ![alt text](images/storage-class.png)       
 
 ## Installation
 
