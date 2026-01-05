@@ -1,5 +1,7 @@
 ## Understanding Argo CD  Session-83
 
+https://argo-cd.readthedocs.io/en/stable/operator-manual/installation/   >> link to konw abot installations
+
     Everything in argocd is called as application...
 
     All the K8s resources like namespaces, storageclasses, network policies, ingress controller drivers, ebs drivers, efs drivers, pv etc can be created by the using the ArgOCD
